@@ -1,15 +1,15 @@
 # .github/workflows/stale.yml
-name: Close stale issues
-on:
-  schedule:
-    - cron: '0 0 * * *'
-jobs:
-  stale:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/stale@v9
-        with:
-          stale-issue-message: 'This issue is stale due to inactivity.'
-          close-issue-message: 'Closing due to inactivity.'
-          days-before-stale: 7
-          days-before-close: 3
+#name: Close stale issues
+#on:
+#  schedule:
+#    - cron: '0 0 * * *'
+#jobs:
+#  stale:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/stale@v9
+#        with:
+#          stale-issue-message: 'This issue is stale due to inactivity.'
+#          close-issue-message: 'Closing due to inactivity.'
+#          days-before-stale: 7
+#          days-before-close: 3
