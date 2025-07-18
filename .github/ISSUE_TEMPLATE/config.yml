@@ -1,55 +1,55 @@
-#blank_issues_enabled: false
-contact_links: []
-issue_templates:
-  - name: Feature Request
-    description: Suggest an idea for this project
-    labels: ['enhancement']
-    body:
-      - type: input
-        id: title
-        attributes:
-          label: Title
-          description: Short, descriptive title of the feature.
-        validations:
-          required: true
-      - type: textarea
-        id: description
-        attributes:
-          label: Description
-          description: Describe the feature in detail.
-        validations:
-          required: true
-      - type: dropdown
-        id: priority
-        attributes:
-          label: Priority
-          options:
-            - Low
-            - Medium
-            - High
-  - name: Task
-    description: Define a new task for the project
-    labels: ['task']
-    body:
-      - type: input
-        id: title
-        attributes:
-          label: Title
-          description: Task name or summary.
-        validations:
-          required: true
-      - type: textarea
-        id: description
-        attributes:
-          label: Task Details
-          description: Provide clear steps or goals.
-        validations:
-          required: true
-      - type: checkboxes
-        id: acceptance
-        attributes:
-          label: Acceptance Criteria
-          options:
-            - label: Criterion 1
-            - label: Criterion 2
-            - label: Criterion 3
+# #blank_issues_enabled: false
+# contact_links: []
+# issue_templates:
+#   - name: Feature Request
+#     description: Suggest an idea for this project
+#     labels: ['enhancement']
+#     body:
+#       - type: input
+#         id: title
+#         attributes:
+#           label: Title
+#           description: Short, descriptive title of the feature.
+#         validations:
+#           required: true
+#       - type: textarea
+#         id: description
+#         attributes:
+#           label: Description
+#           description: Describe the feature in detail.
+#         validations:
+#           required: true
+#       - type: dropdown
+#         id: priority
+#         attributes:
+#           label: Priority
+#           options:
+#             - Low
+#             - Medium
+#             - High
+#   - name: Task
+#     description: Define a new task for the project
+#     labels: ['task']
+#     body:
+#       - type: input
+#         id: title
+#         attributes:
+#           label: Title
+#           description: Task name or summary.
+#         validations:
+#           required: true
+#       - type: textarea
+#         id: description
+#         attributes:
+#           label: Task Details
+#           description: Provide clear steps or goals.
+#         validations:
+#           required: true
+#       - type: checkboxes
+#         id: acceptance
+#         attributes:
+#           label: Acceptance Criteria
+#           options:
+#             - label: Criterion 1
+#             - label: Criterion 2
+#             - label: Criterion 3
